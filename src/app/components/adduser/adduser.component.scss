@@ -1,0 +1,11 @@
+.card{
+    min-height: 200px;
+    border: 1px solid black;    
+}
+.table{
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+.table:nth-child(even){
+    background-color: aqua;
+}

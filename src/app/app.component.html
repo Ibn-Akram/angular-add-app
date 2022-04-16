@@ -1,0 +1,10 @@
+<div style="background-color: black; color: aliceblue;">
+<h1 style="display: flex; justify-content: center;">Parent component</h1>
+<div>
+  <input type="text" (input)="user" >
+</div>
+<button  (click)="showUser=!showUser">Add User!</button>
+<app-adduser   *ngIf="showUser"     [value]="user">
+
+</app-adduser>
+</div>
